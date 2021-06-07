@@ -1,0 +1,265 @@
+* {
+    margin-top: 0%;
+    padding: 0px;
+    background-color: black;
+    align-content: center;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    width: auto;
+    top: 0;
+    background-color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 0%;
+    border: 15px solid black;
+}
+
+img.avatar{
+    width: 75px;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: orange;
+}
+
+header a {
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+header nav li{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    align-items: center;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.web-application{
+    background-color: black;
+}
+
+.about-me {
+
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.me.me{
+    align-items: center;
+}
+
+.me{
+    width: 150px;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 0.5cm;
+    height: 75px;
+    border: 5px solid black;
+    font-size: 17px;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}  
+    /*display: inline-flex;
+
+    */
+    
+    
+div.me1 p{
+    background-color: orange;
+}
+.me1 { 
+    display: inline-flex;
+    background-color: orange;
+    margin-left: 0%;
+    padding: 20px;
+    border-radius: 1cm;
+    color: black;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    align-items: center;
+
+}
+
+.hero-img{
+    background-image: url("../asset/Image/code.jpeg");
+    height: 800px;
+    width: 100%;
+    padding: 5px solid black;
+    ;
+}
+
+
+
+.web-application {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+img.runbud{
+    border-radius: 7cm;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+img.temporarily1{
+    border-radius: 7cm;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+img.temporarily2{
+    border-radius: 7cm;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+img.temporarily3{
+    border-radius: 7cm;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+img.temporarily4{
+    border-radius: 7cm;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+img.temporarily5{
+    border-radius: 7cm;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.web-application2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.web-application3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.email{
+    color: orange;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.projects{
+    margin: 150px;
+    padding: 100px;
+    height: 100px;
+   
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.projects h3{
+    width: 60%;
+    font-size: 95px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    text-align: center;
+    margin:auto;
+    background-color: transparent;
+    padding: auto;
+    margin-bottom: 15px;
+}
+
+.projects p{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    flex-wrap: wrap;
+    width: auto;
+    margin: auto;
+    padding-top: 30px;
+    justify-content: space-around;
+    border: 2px solid orange;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid orange; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=submit] {
+    background-color: black;
+    color: orange;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:black;
+  }
+  .container {
+    border-radius: 2px;
+    background-color: black;
+    padding: 20px;
+  }
+  
+
+footer{
+    background-color: transparent;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
