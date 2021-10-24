@@ -4,6 +4,7 @@
 * HTML
 * CSS
 ## Website
+### Link to deployed app: https://rd2423.github.io/Portefolio/
 
 ![Screen Shot 2021-10-24 at 5 36 07 PM](https://user-images.githubusercontent.com/78246665/138613896-1ec2b76a-9a80-48ed-9d42-1a57ac0c624f.png)
 
